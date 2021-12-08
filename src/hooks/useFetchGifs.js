@@ -8,11 +8,7 @@ export const useFetchGifts = (category) => {
   });
 
   useEffect(() => {
-    getGifts(category).then((imgs) =>
-      setTimeout(() => {
-        setState({ data: imgs, loading: false });
-      }, 3000)
-    );
+    getGifts(category).then((imgs) => setState({ data: imgs, loading: false }));
   }, [category]);
 
   return state;
