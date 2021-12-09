@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifGridItem debe mostrar el componente correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="Un titulo"
+    src="https://app.zeplin.io/project/60f880ef2b7547159f248a4b/dashboard?sid=61b127c6712c9d4b5791ab42"
+  />
+  <p>
+    Un titulo
+  </p>
+</div>
+`;
